@@ -24,9 +24,8 @@
 					<execution>
 						<id>verify-forbidden-apis</id>
 						<configuration>
-							<targetVersion>8</targetVersion>
 							<bundledSignatures>
-								<bundledSignature>jdk-internal-1.8</bundledSignature>
+								<bundledSignature>jdk-internal</bundledSignature>
 							</bundledSignatures>
 						</configuration>
 						<phase>compile</phase>
