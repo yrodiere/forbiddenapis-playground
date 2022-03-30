@@ -25,7 +25,8 @@
 						<id>verify-forbidden-apis</id>
 						<configuration>
 							<bundledSignatures>
-								<bundledSignature>jdk-internal</bundledSignature>
+								<bundledSignature>jdk-unsafe-11</bundledSignature>
+								<bundledSignature>jdk-unsafe-17</bundledSignature>
 							</bundledSignatures>
 						</configuration>
 						<phase>compile</phase>
